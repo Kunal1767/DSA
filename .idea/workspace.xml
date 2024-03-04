@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f52c52-12e2-46b9-9e64-735bc78ace32" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Stack/Arraytostack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/LinkedListToStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/QueueLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Infix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,9 @@
     "Application.BasicStack.executor": "Run",
     "Application.CircularLinkedList.executor": "Run",
     "Application.Display.executor": "Run",
+    "Application.Infix.executor": "Run",
     "Application.LinkedListToStack.executor": "Run",
+    "Application.QueueLinkedList.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -80,7 +81,11 @@
       <workItem from="1708310146378" duration="637000" />
       <workItem from="1708317256943" duration="10000" />
       <workItem from="1708397707394" duration="394000" />
-      <workItem from="1708915816923" duration="2634000" />
+      <workItem from="1708915816923" duration="2681000" />
+      <workItem from="1708929754465" duration="11000" />
+      <workItem from="1709002801712" duration="1415000" />
+      <workItem from="1709565174274" duration="12000" />
+      <workItem from="1709565575978" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -98,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708310755384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <option name="closed" value="true" />
+      <created>1708919581639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708919581640</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
