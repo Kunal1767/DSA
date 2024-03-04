@@ -29,7 +29,6 @@ public class QueueLinkedList {
             }
             int result = front.data;
             front = front.next;
-
             return result;
         }
         void display() {
