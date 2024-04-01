@@ -57,7 +57,7 @@ public class Arraytostack {
         }
         int capacity(){
             return arr.length;
-        }
+        } 
     }
 
 

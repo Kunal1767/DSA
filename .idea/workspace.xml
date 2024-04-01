@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f52c52-12e2-46b9-9e64-735bc78ace32" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Queue/QueueLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Infix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/QueueArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/QueueCircularArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Arraytostack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Arraytostack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,28 +36,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Arraytostack.executor": "Run",
-    "Application.BasicStack.executor": "Run",
-    "Application.CircularLinkedList.executor": "Run",
-    "Application.Display.executor": "Run",
-    "Application.Infix.executor": "Run",
-    "Application.LinkedListToStack.executor": "Run",
-    "Application.QueueLinkedList.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Arraytostack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CircularLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Display.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Infix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListToStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,7 +95,15 @@
       <workItem from="1708929754465" duration="11000" />
       <workItem from="1709002801712" duration="1415000" />
       <workItem from="1709565174274" duration="12000" />
-      <workItem from="1709565575978" duration="1256000" />
+      <workItem from="1709565575978" duration="2025000" />
+      <workItem from="1709610942020" duration="5904000" />
+      <workItem from="1709619090457" duration="714000" />
+      <workItem from="1709619915231" duration="838000" />
+      <workItem from="1710385394123" duration="445000" />
+      <workItem from="1710492541620" duration="198000" />
+      <workItem from="1710493599182" duration="1426000" />
+      <workItem from="1710498865916" duration="8000" />
+      <workItem from="1711940851637" duration="2563000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -111,7 +129,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708919581640</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709566905395</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709566905395</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709566990480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709566990480</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
