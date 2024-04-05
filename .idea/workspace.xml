@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f52c52-12e2-46b9-9e64-735bc78ace32" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Queue/QueueArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue/QueueCircularArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Arraytostack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Arraytostack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
     &quot;Application.Infix.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinkedListToStack.executor&quot;: &quot;Run&quot;,
     &quot;Application.QueueLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tree.executor&quot;: &quot;Run&quot;,
     &quot;Java Scratch.Demo.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -67,6 +66,26 @@
     ]
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.Tree" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tree" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -103,7 +122,11 @@
       <workItem from="1710492541620" duration="198000" />
       <workItem from="1710493599182" duration="1426000" />
       <workItem from="1710498865916" duration="8000" />
-      <workItem from="1711940851637" duration="2563000" />
+      <workItem from="1711940851637" duration="2602000" />
+      <workItem from="1711946608600" duration="6000" />
+      <workItem from="1712113928848" duration="3039000" />
+      <workItem from="1712200682394" duration="296000" />
+      <workItem from="1712201619592" duration="490000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -145,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709566990480</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <option name="closed" value="true" />
+      <created>1711943593987</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711943593987</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
