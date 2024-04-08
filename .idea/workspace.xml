@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f52c52-12e2-46b9-9e64-735bc78ace32" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Trees/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hashing/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hashing/SimpleHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,38 +35,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Arraytostack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BasicStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CircularLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Display.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Infix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListToStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tree.executor&quot;: &quot;Run&quot;,
-    &quot;Java Scratch.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Arraytostack.executor": "Run",
+    "Application.BasicStack.executor": "Run",
+    "Application.CircularLinkedList.executor": "Run",
+    "Application.Display.executor": "Run",
+    "Application.Infix.executor": "Run",
+    "Application.LinkedListToStack.executor": "Run",
+    "Application.Operation.executor": "Run",
+    "Application.QueueLinkedList.executor": "Run",
+    "Application.SimpleHashing.executor": "Run",
+    "Application.Tree.executor": "Run",
+    "Java Scratch.Demo.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.Tree" />
@@ -127,6 +130,9 @@
       <workItem from="1712113928848" duration="3039000" />
       <workItem from="1712200682394" duration="296000" />
       <workItem from="1712201619592" duration="490000" />
+      <workItem from="1712315622555" duration="923000" />
+      <workItem from="1712377003042" duration="453000" />
+      <workItem from="1712545908253" duration="2684000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -176,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711943593987</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <option name="closed" value="true" />
+      <created>1712315676457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712315676457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
